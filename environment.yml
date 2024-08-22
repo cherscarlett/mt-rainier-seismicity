@@ -1,0 +1,11 @@
+name: mt-r-environment
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - numpy
+  - cartopy
+  - pip
+  - pip:
+    - matplotlib
+    - obspy
